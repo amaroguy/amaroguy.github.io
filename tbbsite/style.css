@@ -207,7 +207,30 @@ section h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+
+.board-member img {
+    width: 128px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.board-member-info p {
+    margin: 0; 
+    padding: 0 0 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.socials-container img {
+    width: 48px;
 }
 
 @media (min-width: 480px){
@@ -309,11 +332,46 @@ section h1 {
     .teddy-photo {
         grid-area: second-photo;
     }
+
+    .events-container {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+
+    .event {
+        width: min(400px, 100%);
+        padding: 0 25px 0 25px;
+    }
+
+    .board-container {
+        width: 85%;
+        margin: 0 auto;
+        display : flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .board-member {
+        display: flex;
+        align-items: center;
+        width: 49%;
+    }
+
+    .board-member-info p  {
+        font-size: 1.125rem
+    }
 }
 
 
 @media (min-width: 1600px) {
     .activities-text p {
         font-size: 1.5rem
+    }
+
+    .board-member-info p {
+        font-size: 1.25rem;
     }
 }
