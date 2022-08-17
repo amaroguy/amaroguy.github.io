@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
+
 body {
     margin: 0; 
     background-color: #E3E3E3;
@@ -15,24 +20,26 @@ body {
     margin: 0 auto;
 }
 
-.platform-decoration {
-    display: inline-block;
-    width: fit-content;
-    padding: 0.5em 1em;
-    margin: 0 auto;
-    background-color: #f3b86a;
-    border-left: 40px solid #252525;
-    border-right: 40px solid #252525;
+section {
+    padding: 30px 0;
 }
+
 
 p {
     font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 * {
     box-sizing: border-box;
 }
 
+.text-padding {
+    padding: 0 10px;
+}
 
 .icon {
     width: 64px;
@@ -71,6 +78,10 @@ h1 {
     font-size: 1.75rem;
 }
 
+.discord-link {
+    text-decoration: underline;
+    color: #5662f6
+}
 
 .nav-buttons {
     position: absolute;
@@ -80,7 +91,7 @@ h1 {
     flex-direction: column;
     padding: 0;
     list-style: none;
-    height: 30vh;
+    height: 40vh;
     margin: 0;
     transform: translateX(100%);
     transition: transform 100ms;
@@ -95,7 +106,7 @@ h1 {
     width: 100%;
 }
 
-.nav-buttons li a {
+.nav-buttons li a.nav-item {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.125rem;
@@ -169,13 +180,12 @@ section h1 {
 .activities-container{
     background-color: #c6c6c6;
     margin: 0 auto;
-    max-width: 2500px;
+    max-width: 2560px;
 }
 
 .activities-container img {
     height: 400px;
     object-fit: cover;
-    border: 1px solid green;
 }
 
 .activities-text {
@@ -184,6 +194,7 @@ section h1 {
 
 .teddy-photo {
     object-position: 0px 90%;
+    vertical-align: middle;
 }
 
 
@@ -199,6 +210,14 @@ section h1 {
     margin: 0;
 }
 
+.no-padding {
+    padding: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -209,17 +228,60 @@ section h1 {
     justify-content: center;
 }
 
+.past-events-section {
+    padding-bottom: 30px;
+}
+
+.events-container {
+    max-width: 2560px;
+}
+
+.event-portrait {
+    aspect-ratio: 4 / 5;
+    background-color: #CACACA;
+    display: flex;
+    align-items: center;
+}
+
+.board-section{
+    padding-bottom: 30px;
+}
+
+.board-container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 2560px;
+}
+
+.board-member {
+    background-color: #DEDEDE;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px outset;
+}
 
 .board-member img {
     width: 128px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #C3C3C3;
 }
 
 .board-member-info p {
     margin: 0; 
     padding: 0 0 20px 0;
+}
+
+.board-member-info h4 {
+    margin: 0;
+}
+.board-member-info h3 {
+    margin: 0;
+}
+
+.how-to-join {
+    padding-bottom: 30px;
 }
 
 footer {
@@ -346,8 +408,9 @@ footer {
         padding: 0 25px 0 25px;
     }
 
+
+
     .board-container {
-        width: 85%;
         margin: 0 auto;
         display : flex;
         flex-wrap: wrap;
@@ -357,7 +420,7 @@ footer {
     .board-member {
         display: flex;
         align-items: center;
-        width: 49%;
+        width: 48.5%;
     }
 
     .board-member-info p  {

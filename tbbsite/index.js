@@ -22,3 +22,13 @@ window.addEventListener('resize', (e) => {
         navButtons.style.transform = "translateX(100%)"
     }
 } )
+
+
+document.querySelectorAll('.nav-item').forEach(navItem => {
+    navItem.addEventListener('click', () => {
+        if(navOpen){
+            navOpen = false
+            navButtons.style.transform = "translateX(100%)"
+        }
+    })
+})

@@ -13,12 +13,13 @@
 <body>
     <header>
         <nav>
-                <img class = "nav-logo" src="./images/tbb_logo.png" />
+                <a class = "nav-logo" href = "https://tritonbarbell.org"><img src="./images/tbb_logo.png" /> </a>
                 <ul id = "nav-buttons" class = "nav-buttons">
-                        <li><a href="#">HOME </a></li>
-                        <li><a href="#">BOARD</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        <li><a href="#">DISCORD</a></li>
+                        <li><a class = "nav-item" href="https://tritonbarbell.org">HOME </a></li>
+                        <li><a class = "nav-item" href="#board">BOARD</a></li>
+                        <li><a class = "nav-item" href="#contact">CONTACT</a></li>
+                        <li><a class = "nav-item" href="#join">JOIN</a></li>
+                        <li><a class = "nav-item" href="https://discord.gg/tXmMuZpnqu">DISCORD</a></li>
                     </ul>
                 <img class = "icon" id = "nav-toggle" src="./icons/hamburger.svg" />
         </nav>
@@ -33,7 +34,7 @@
             <div class = "section-title"> 
                 <h1>What is Triton Barbell? </h1>
                 <p> 
-                    Triton Barbell is a powerlifting and weightlifting <strong>community</strong> that aims to promote <strong>knowledge</strong> and 
+                    Triton Barbell is a powerlifting and weightlifting <strong>community</strong> at UCSD that aims to promote <strong>knowledge</strong> and 
                     <strong>competition</strong> in strength sports.
                 </p>
                 <p >
@@ -42,7 +43,7 @@
                 </p>
             </div>
         </section>    
-        <section class = "activities"> 
+        <section class = "activities no-padding"> 
             <div class = "activities-container">
                 <img class = "omar-paul-photo" src = "./images/omar-paul.jpg" />
                 <div class="activities-text">
@@ -75,112 +76,132 @@
             </div>
         </section>
         <section class = "past-events-section">
-        <h1> Past events </h1>
+        <h1 id = "events" class = "margin-bottom"> QUARTERLY/WEEKLY EVENTS </h1>
             <div class = "events-container">
                 <div class = "event">
-                    <img src = "./images/brunch.jpg">
-                    <h3>BRUNCH</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    <div class="event-portrait">
+                        <img src = "./images/meetup_1.jpg">
+                    </div>
+                    <h3>WEEKEND MEETUPS</h3>
+                    <p class = "text-padding"> 
+                        We encourage everyone to come to RIMAC Saturdays at 11AM to come work out together, meet new people, a great opportunity to learn something new from one another!
                     </p>
                 </div>
                 <div class = "event">
-                    <img src = "./images/brunch.jpg">
-                    <h3>BRUNCH</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    <div class = "event-portrait"> 
+                        <img src = "./images/mock_meet.jpg">
+                    </div>
+                    <h3>MOCK POWERLIFTING MEET</h3>
+                    <p class = "text-padding"> 
+                        At the end of each quarter we test our strength! Compete to see fellow tritons test the limits of their strength!
                     </p>
                 </div>
                 <div class = "event">
-                    <img src = "./images/mock_meet.jpg">
+                    <div class="event-portrait">
+                        <img src = "./images/brunch.jpg">
+                    </div>
                     <h3>BRUNCH</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    <p class = "text-padding"> 
+                        At the end of each quarter, Triton Barbell celebrates by hosting a brunch. Come talk to new people you've met!
                     </p>
                 </div>
             </div>
+
+            <!-- <a href = "#"> See more events </a> -->
+
         </section>
 
-        <section class="board-section">
-            <h1> meet the board </h1>
+        <section id = "board" class="board-section">
+            <h1 class = "margin-bottom"> meet the board </h1>
             <div class = "board-container">
                 <div class = "board-member">
-                    <img src="./images/racc.png">
+                    <img src="./images/forrest.png">
                     <div class = "board-member-info">
-                        <h3> THE RACC </h3>
+                        <h3> Forrest Wang (He/Him)</h3>
                         <h4>President</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                        <p>  Our president Forrest has been with the club since his Freshman year, as a pre-med student he dedicates a lot of time to his health and has helped TBB grow into what it is today  </p>
                     </div>
                 </div>
                 <div class = "board-member">
-                    <img src="./images/racc.png">
+                    <img src="./images/dom.png">
                     <div class = "board-member-info">
-                        <h3> THE RACC </h3>
+                        <h3> Daraudom Nhem (He/Him)</h3>
+                        <h4> Vice President </h4>
+                        <p>  Dom is one of the friendliest faces of Triton Barbell. His incredible strength and personableness makes him a great gym partner.  </p>
+                    </div>
+                </div>
+                <div class = "board-member">
+                    <img src="./images/casper.png">
+                    <div class = "board-member-info">
+                        <h3> Casper Nelson (He/They)</h3>
+                        <h4> Treasurer </h4>
+                        <p> Casper is a Forth year Business Psychology undergraduate student. He is a bodybuilder who regularly posts his great cooking in the Discord.</p>
+                    </div>
+                </div>
+                <div class = "board-member">
+                    <img src="./images/omar.jpg">
+                    <div class = "board-member-info">
+                        <h3> Omar Haroon (He/Him)</h3>
+                        <h4>Events Coordinator</h4>
+                        <p> Omar is responsible for making sure all our events go smoothly. He has past experience training for combat sports like Brazilian Jiu Jitsu and more and is incredibly strong for his size.</p>
+                    </div>
+                </div>
+                <div class = "board-member">
+                    <img src="./images/noah.png">
+                    <div class = "board-member-info">
+                        <h3> Noah Berlandier (He/Him)</h3>
                         <h4>Secretary</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                        <p>  Noah has brought plenty of new people into the gym and cares greatly about getting people into fitness regardless of background. He cares greatly about making fitness accessible to all. </p>
                     </div>
                 </div>
                 <div class = "board-member">
-                    <img src="./images/racc.png">
+                    <img src="./images/erick.png">
                     <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                        <h3> Erick Amaro (He/Him)</h3>
+                        <h4>Social Media Manager</h4>
+                        <p> Erick will be the one managing the discord and instagrem, and creating websites like the one you're currently on. He one day wants to total >2000 pounds </p>
                     </div>
                 </div>
                 <div class = "board-member">
-                    <img src="./images/racc.png">
+                    <img src="./images/ryan.png">
                     <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                        <h3> Ryan Ritterby (He/Him)</h3>
+                        <h4>Digital Manager</h4>
+                        <p>  Ryan is a bodybuilding and theater extrordinaire. Any great promotional videos or photos can be accredited to him. You can find him often posing the locker rooms of RIMAC.  </p>
                     </div>
                 </div>
                 <div class = "board-member">
-                    <img src="./images/racc.png">
+                    <img src="./images/paul.png">
                     <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-                    </div>
-                </div>
-                <div class = "board-member">
-                    <img src="./images/racc.png">
-                    <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-                    </div>
-                </div>
-                <div class = "board-member">
-                    <img src="./images/racc.png">
-                    <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-                    </div>
-                </div>
-                <div class = "board-member">
-                    <img src="./images/racc.png">
-                    <div class = "board-member-info">
-                        <h3> THE RACC </h3>
-                        <h4>Trash hunter</h4>
-                        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                        <h3> Paul Gershon (He/Him)</h3>
+                        <h4>Coaching Chair</h4>
+                        <p> Paul knows his way around powerlifting, having placed 2nd at Cal State Championships in his weight class. 
+                            He is a gentle giant, one of the most approachable members in the club.  </p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id = "join" class="how-to-join">
+            <h1 class = "margin-bottom">How do I join? </h1>
+
+            <div class="text-padding">
+                <p class = "no-margin"> You can join triton barbell right now by joining our <a class = "discord-link" href = "https://discord.gg/tXmMuZpnqu">Discord server </a> !
+                        It is open to everyone, and a great place to find gym partners, fitness advice, and more! 
+                </p>
+
+                <p> You can find the invite below in "Social Media", or in the navigation menu at the top of the page. </p>
+            </div>
+        </section>
+
     </div>
 
-    <footer>
-        <h4> CONTACT US </h4>
+    <footer id = "contact">
+        <h4> SOCIAL MEDIA </h4>
         <div class = "socials-container"> 
-            <img src = "icons/logo-discord.svg" />
-            <img src = "icons/logo-facebook.svg" />
-            <img src = "icons/logo-instagram.svg" />
+            <a href="https://discord.gg/tXmMuZpnqu"><img src = "icons/logo-discord.svg" /> </a>
+            <a href="https://www.facebook.com/ucsdlifting/"><img src = "icons/logo-facebook.svg" /> </a>
+            <a href="https://www.instagram.com/tritonbarbell"><img src = "icons/logo-instagram.svg" /> </a>
         </div>
         <p> Email us at: tritonbarbellucsd@gmail.com </p> 
 
