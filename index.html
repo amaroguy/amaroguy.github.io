@@ -1,116 +1,135 @@
 <!DOCTYPE html>
-<html> 
-    <title> Erick Amaro Hernandez </title> <a href = "CSREAH.pdf"> PDF FORMAT </a>
-
-
-<style>
-
-    span{
-        font-size:20px;
-        font-weight: bold; 
-    }
-
-    .extra{
-        font-size: 15px
-    }
-    
-    li{
-        font-size: 20px; 
-        padding-bottom: 5px; 
-    }
-
-    p{
-        font-size:20px;
-    }
-
-    .date {
-        font-size: 15px; 
-        font-weight: normal;
-    }
-    
-
-</style> 
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
 <body>
+    <section>
+        <div class = "intro-card-container"> 
+            <img class = "intro-card-img" src = "./me.jpg" />
+            <div class = "intro-card-text">
+                <h1>Erick Amaro</h1>
+                <h3> Software/Front-End Developer </h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="personal-info-container">
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/school-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Education</h2>
+                    </div>
+                    <h4>University of California, San Diego</h4>
+                </div>
+                <div class = "info-card-content">
+                    <p> Mathematics - Computer Science B.S.</p>
+                    <small>September 2020 - June 2024 (expected)</small>
+                    <h4>Relevant Coursework: </h4>
+                    <ul>
+                        <li>Advanced Data Structures</li>
+                        <li>Mathematical Reasoning</li>
+                        <li>Basic DS and Object-Oriented Design</li>
+                        <li>Graph Theory</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/hammer-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Skills</h2>
+                    </div>
+                    <h4>Languages, Frameworks, etc.</h4>
+                </div>
+                <div class = "info-card-content">
+                    <div class = "skills-container">
+                        <p class = "skill">Java</p>
+                        <p class = "skill">C++</p>
+                        <p class = "skill">Python</p>
+                        <p class = "skill">Javascript</p>
+                        <p class = "skill">Linux CLI</p>
+                        <p class = "skill">Git</p>
+                        <p class = "skill">API</p>
+                        <p class = "skill">HTML</p>
+                        <p class = "skill">CSS</p>
+                        <p class = "skill">ReactJS</p>
+                        <p class = "skill">Redux Toolkit</p>
+                        <p class = "skill">Websockets</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/mail-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Contact</h2>
+                    </div>
+                    <h4>Socials/Location</h4>
+                </div>
+                <div class = "info-card-content">
+                    <div class = "flex align-vert flex-center location">
+                        <img width="32" src = "icons/pin-outline.svg"/> 
+                        <p class = "bold"> Chula Vista, California </p>
+                    </div>
+                    <div class="flex flex-center">
+                        <a href = "https://github.com/amaroguy"> <img class = "icon-social" src = "icons/logo-github.svg"/> </a> 
+                        <a href = "https://linkedin.com/in/eamarohe"> <img class = "icon-social" src = "icons/logo-linkedin.svg"/> </a>
+                    </div>
+                    <div>
+                        <img width = 32px src = "./icons/mail-outline.svg"/>
+                        amaroguy@gmail.com
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "pd-bottom">
+        <h1 class = "txt-center">Projects</h1>
 
-
-<h1>Erick Amaro Hernandez</h1> 
-
-
-<div> 
-
-    
-    <span> School:  </span> University of California, San Diego <br> 
-    <span> Major Program: </span> B.S Mathematics - Computer Science <br>
-    <span> Contact: </span> 
-    <a style = "padding-right: 10px;" href = "https://www.linkedin.com/in/erick-amaro-hernandez-771360220/"> LinkedIn </a> <a href = "http://www.github.com/amaroguy" style = "padding-right: 10px;"> Github    </a> 
-    <span> Email(s): </span>  amaroguy@gmail.com / eamarohe@ucsd.edu <br>
-    <span> Hometown: </span> San Diego, California
-
-</div>
-
-<div style = "padding-top: 10px;"> 
-    <img src = "me.jpg"> 
-    <p>
-        Math/CS undergraduate looking to start his journey in tech and put his skills to the test. 
-    </p>
-</div> 
-
-
-
-
-<div style = "padding-top: 10px;">
-    <span> Relevant Coursework: </span> 
-    <ul>
-        <li> CSE 12 Basic Data Structures and Object-Oriented Design : Writing own Data Structures,  </li>
-        <li> CSE 15L Software Tools and Techniques Laboratory : Learning development tools. </li>
-        <li> Harvard's CS50 Web Programming with Python and JavaScript: Python/Django/Javascript. </li>
-    </ul>
-    <a  class = "extra" href = "https://catalog.ucsd.edu/courses/CSE.html" > Detailed UCSD CSE course information </a> 
-    <br> 
-</div>
-
-<div style = "padding-top: 15px; ">
-    <span> Technical Skills / Projects :</span> 
-    <ul> 
-        <li> Git, C, Java, Python, Django, SQLite, PostgreSQL, HTML templating</li> 
-        <li> Writing Data Structures such as Indexes, Heaps, Hashmaps in Java. </li>
-        <li> Mock stock trading website utilizing <a href = "https://iexcloud.io/"> IEXCloud stock quote API </a> as project for CS50</li> 
-    </ul>
-</div>
-
-
-<div style = "padding-top: 15px; "> 
-
-    <span> Extra-curriculars: </span> <br> <br>
-    
-    <span> Triton Barbell - UCSD Powerlifting and Weightlifting club (Board Member) <span class = "date"> June 2021 - Present </span></span> 
-    <ul> 
-
-        <li> Managing Social Media posts and messages </li>
-        <li> Bi-weekly board meetings </li>
-        <li> Helping Organize fundraisers and club events </li> 
-
-
-    </ul>
-
-</div>
-
-
-
-
-
-
-
-  
-
-
-
-
-
+        <div class="mg-bottom project-container container">
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Goodlift.io - Powerlifting Meet Manager (Private Repo) </h1>
+                    <a href="https://amaro.tech/goodlift">View Project</a>
+                </div>
+                <p> Goodlift is a small-scale powerlifting competition managing web app. Supports spectating competition results and real-time lifting judge feedback.
+                    Implemented are custom context menus, state management with Redux toolkit and memoization to use a context without unnecessary re-renders. Websockets for real-time functionality.
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Discord Bot - Korone </h1>
+                    <a href = "https://github.com/amaroguy/koronebot" > View Project </a>
+                    
+                </div>
+                <p> Goodlift is a small-scale powerlifting competition managing web app. Supports spectating competition results and real-time lifting judge feedback.
+                    Implemented are custom context menus, state management with Redux toolkit and memoization to use a context without unnecessary re-renders. Websockets for real-time functionality.
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Fully Responsive School Club Website - tritonbarbell.org </h1>
+                    <a href = "https://tritonbarbell.org" > View Project </a>
+                    
+                </div>
+                <p> 
+                    A website presenting my school's powerlifting and weightlifting club. Because students would be visiting this from flyers,
+                    mobile/tablet/small and large pc responsiveness was a must. Includes a responsive navbar and image carousels all in vanilla HTML/CSS/JS.
+                    Development also included frequent meetings with other leaders of the
+                    club for feedback on design and information presented.
+                </p>
+            </div>
+        </div>
+    </section>
 
 </body>
-
-
 </html>
