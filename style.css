@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+html{
+    background-color: #EEF1DB;
+    height: 100vh;
+}
+
+ul {
+}
+
+.flex {
+    display: flex;
+}
+
+.align-vert {
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.debug-border-1 {
+    border: 1px solid black
+}
+
+.debug-border-2{
+    border: 1px solid green
+}
+
+.intro-card-container{
+    background-color: #C9C7AF;
+    width: 50%;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.intro-card-text h1, h2, h3{
+    margin: 0;
+}
+
+.icon {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-social {
+    width: 75px;
+}
+
+.intro-card-img {
+    width: 200px;
+    margin-right: 3rem;
+    border-radius: 5px;
+}
+
+.intro-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-card-text h1,
+.intro-card-text h3{
+    font-weight: 700;
+    color: #485b63
+}
+
+.personal-info-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.info-card{
+    margin: 0.75rem;
+    width: 325px;
+    height: 425px;
+    overflow: hidden;
+    border-radius: 5px;;
+    background-color: #E3E1C9
+}
+
+.info-card-title {
+    padding: 1rem;
+    background-color: #C9C7AF;
+    text-align: center;
+}
+.info-card-title h4 {
+    margin:0.25rem;
+}
+
+.info-card-content {
+    padding: 1rem;
+}
+
+.info-card-content h4 {
+    margin-bottom: 0;
+}
+
+.info-card p {
+    margin: 0;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.skill {
+    padding: 0.25rem 0.5rem;
+    background-color: #485b63;
+    color: white;
+    margin:2px;
+    border-radius: 3px;
+}
+
+
+.center-title {
+    text-align: center;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+
+
+
+.project-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d6d4bc
+}
+
+.project h1 {
+    margin: 0;
+}
+
+#mg-bottom{
+    margin-bottom: 1000px;
+}
+
+#pd-bottom {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 975px) {
+    .intro-card-container{
+        width: 100%;
+        border-radius: 0;
+    }
+
+}
