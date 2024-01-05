@@ -16,7 +16,7 @@
             <img class = "intro-card-img" src = "./me.jpg" />
             <div class = "intro-card-text">
                 <h1>Erick Amaro</h1>
-                <h3> Software/Front-End Developer </h3>
+                <h3> Software Developer </h3>
             </div>
         </div>
     </section>
@@ -39,6 +39,10 @@
                         <li>Mathematical Reasoning</li>
                         <li>Basic DS and Object-Oriented Design</li>
                         <li>Graph Theory</li>
+                        <li>Deep Learning for NLP</li>
+                        <li>Data Science in Practice (Ongoing)</li>
+                        <li>Software Engineering</li>
+                        <li>Recommender Systems & Web Mining</li>
                     </ul>
                 </div>
             </div>
@@ -92,13 +96,34 @@
             </div>
         </div>
     </section>
+    <section id = ""> 
+        <h1 class= "txt-center">Professional Experience</h1> 
+        <div class= "project-container container">
+
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Internship at Qualtrics - Full Stack Software Engineer </h1>
+                </div>
+                <ul>
+                    <li> Worked in Agile environment and experienced the product life-cycle through a full stack intern project beginning
+                    with a design document which was reviewed by peers </li>
+                    <li>Developed a REST API using Fastify and data stored in AWS DynamoDB, tested with Jest framework </li>
+                    <li>Developed an algorithm for recommendations utilizing provided Artificial Intelligence model that was serviced
+                    through the REST API </li>  
+                    <li> Worked with UI/UX/QE team weekly to integrate new front-end components in existing application that users
+                    would interface with to receieve their recommendations </li>   
+                </ul>
+            </div>
+
+        </div>
+    </section>
     <section>
         <h1 class = "txt-center">Projects</h1>
 
         <div class="mg-bottom project-container container">
             <div class = "project">
                 <div class = "project-title" >
-                    <h1> Goodlift.io - Powerlifting Meet Manager (Private Repo) </h1>
+                    <h1> Goodlift.io - Powerlifting Meet Manager</h1>
                     <a href="https://amaro.tech/goodlift">View Project</a>
                 </div>
                 <p> Goodlift is a small-scale powerlifting competition managing web app. Supports spectating competition results and real-time lifting judge feedback.
@@ -107,18 +132,49 @@
             </div>
             <div class = "project">
                 <div class = "project-title" >
-                    <h1> Discord Bot - Korone </h1>
-                    <a href = "https://github.com/amaroguy/koronebot" > View Project </a>
-                    
+                    <h1> AI Flashcard Study Assistant </h1>
+                    <a href = "https://github.com/amaroguy/LIGN-167-Final-Project-AI-Flashcard-App" > View Project </a>
                 </div>
-                <p> Goodlift is a small-scale powerlifting competition managing web app. Supports spectating competition results and real-time lifting judge feedback.
-                    Implemented are custom context menus, state management with Redux toolkit and memoization to use a context without unnecessary re-renders. Websockets for real-time functionality.
+                <p> 
+                    Final Group Project for LIGN 167: Deep Learning for Natual Language Processing. Creates Flashcards for users and allows users to describe concepts in their own words and have it be graded by OpenAI's Assistant API. 
                 </p>
             </div>
             <div class = "project">
                 <div class = "project-title" >
-                    <h1> Fully Responsive School Club Website - tritonbarbell.org </h1>
-                    <a href = "https://tritonbarbell.org" > View Project </a>
+                    <h1> SayIt AI Voice Assistant </h1>
+                    <a href = https://github.com/ucsd-cse110-sp23/cse-110-project-team-2 > View Project </a>
+                </div>
+                <p> 
+                    Final Group Project for Software Engineering Course utilizing OpenAI’s speech-to-text API and ChatGPT API
+which users can speak commands into to ask questions and send emails. Voice command history stored through account creation and REST API powered by MongoDB. Unit Tests written and required to pass to merge through Github Actions
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Discord Bot - Korone - Discord OAuth/UCSD Student Authentication System </h1>
+                    <a href = "https://korone.dev" > View Project </a>
+                </div>
+                <p> 
+                    Implemented a system where users can link their UCSD email to an existing Discord account through OAuth in order to verify themselves as UCSD Students. Utilized
+                    Firebase Authentication for google OAuth, and implemented Discord OAuth support from scratch since at the time Firebase did not have support for Discord OAuth. Firestore was used
+                    as a database to store the link between the two accounts, and a ban table which bans certain ucsd emails from verifying themselves with the Bot in any server. 
+
+                    <strong> The code for the APIs built/bot commands are not public as to avoid any possible exploits being found. </strong>
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Discord Bot - Korone - UCSD Busyness Status </h1>
+                    <a href = "https://github.com/amaroguy/koronebot" > View Project </a>
+                </div>
+                <p> 
+                    A plugin for my discord bot that adds a command to pull the information of how busy the Gyms at UCSD are from the Waitz website, using the Waitz API and put it into a discord message. 
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Fully Responsive School Club Website - tritonbarbell.org (Unused now, hosted on different website) </h1>
+                    <a href = "https://amaro.tech/tbbsite" > View Project </a>
                     
                 </div>
                 <p> 
@@ -131,7 +187,7 @@
         </div>
     </section>
 
-    <section id = "pd-bottom"> 
+    <section> 
         <h1 class= "txt-center">Certificates</h1> 
         <div class= "project-container container">
 
@@ -142,6 +198,23 @@
                 </div>
                 <p> 
                     Completion of 80+ hours of coursework and projects in HTML/CSS/JS/React. Entire section dedicated to responsive web design and UI design. 
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id = "pd-bottom"> 
+        <h1 class= "txt-center">Other Cool Stuff</h1> 
+        <div class= "project-container container">
+
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> LIGN 6: Language and Computers Final Paper - Cloning My Professor's Voice </h1>
+                    <a href="https://amaro.tech/LIGN6_Final_Paper.pdf">View Paper</a>
+                </div>
+                <p> 
+                    Back in 2021 when Voice Synthesis was not as easily accessible, I collected voice clips from my professor's lectures, labeled them, and fed them into Tacotron and Talknet models to clone his voice (with permission).
+                    I compared the strengths and weaknesses of each of the models, conducted surveys to see if I could fool other students into believing the synthesized audio was real, and had made some fun audios out of it. Nowadays you just need a couple of seconds of audio and some services like Voicelabs or whatever the service is called.
                 </p>
             </div>
 
