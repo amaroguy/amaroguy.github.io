@@ -1,0 +1,24 @@
+.project-container {
+    margin: 0 auto; 
+    max-width: 1250px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 2rem;
+    background-color: rgba(20,20,20,0.5)
+}
+
+.link {
+    margin: 0px 10px;
+}
+
+.project-name > .link {
+    display: inline-block
+}
+
+.tool {
+    display: inline-block;
+    padding: 1px 5px;
+    border-radius: 10px;
+    margin: 0px 8px 8px 0px;
+    background-color: rgba(128,128,128,0.5);
+}
