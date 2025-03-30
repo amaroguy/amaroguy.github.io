@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class = "intro-card-container"> 
+            <img class = "intro-card-img" src = "./me.jpg" />
+            <div class = "intro-card-text">
+                <h1>Erick Amaro</h1>
+                <h3> Software Developer </h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="personal-info-container">
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/school-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Education</h2>
+                    </div>
+                    <h4>University of California, San Diego</h4>
+                </div>
+                <div class = "info-card-content">
+                    <p> Mathematics - Computer Science B.S.</p>
+                    <small>September 2020 - June 2024 (expected)</small>
+                    <h4>Relevant Coursework: </h4>
+                    <ul>
+                        <li>Advanced Data Structures</li>
+                        <li>Mathematical Reasoning</li>
+                        <li>Basic DS and Object-Oriented Design</li>
+                        <li>Graph Theory</li>
+                        <li>Deep Learning for NLP</li>
+                        <li>Data Science in Practice (Ongoing)</li>
+                        <li>Software Engineering</li>
+                        <li>Recommender Systems & Web Mining</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/hammer-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Skills</h2>
+                    </div>
+                    <h4>Languages, Frameworks, etc.</h4>
+                </div>
+                <div class = "info-card-content">
+                    <div class = "skills-container">
+                        <p class = "skill">Java</p>
+                        <p class = "skill">C++</p>
+                        <p class = "skill">Python</p>
+                        <p class = "skill">Java/Typescript</p>
+                        <p class = "skill">Linux CLI</p>
+                        <p class = "skill">Git</p>
+                        <p class = "skill">API</p>
+                        <p class = "skill">HTML</p>
+                        <p class = "skill">CSS</p>
+                        <p class = "skill">ReactJS</p>
+                        <p class = "skill">Redux Toolkit</p>
+                        <p class = "skill">Websockets</p>
+                        <p class = "skill">C</p>
+                        <p class = "skill">C++</p>
+                        <p class = "skill">SQL</p>
+                        <p class = "skill">Bash Scripting</p>
+                        <p class = "skill">Firebase</p>
+                        <p class = "skill">TailwindCSS</p>
+                        <p class = "skill">Jest (Unit Testing)</p>
+                        <p class = "skill">AWS DynamoDB</p>
+                        <p class = "skill">MongoDB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class = "info-card-title">
+                    <img class = "icon" src="./icons/mail-outline.svg"/>
+                    <div class = "center-title">
+                        <h2>Contact</h2>
+                    </div>
+                    <h4>Socials/Location</h4>
+                </div>
+                <div class = "info-card-content">
+                    <div class = "flex align-vert flex-center location">
+                        <img width="32" src = "icons/pin-outline.svg"/> 
+                        <p class = "bold"> Chula Vista, California </p>
+                    </div>
+                    <div class="flex flex-center align-vert">
+                        <a href = "https://github.com/amaroguy"> <img class = "icon-social" src = "icons/logo-github.svg"/> </a> 
+                        <a href = "https://linkedin.com/in/eamarohe"> <img class = "icon-social" src = "icons/logo-linkedin.svg"/> </a>
+                    </div>
+                    <div class = "flex flex-center align-vert">
+                        <img width = 32px src = "./icons/mail-outline.svg"/>
+                        amaroguy@gmail.com
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = ""> 
+        <h1 class= "txt-center">Professional Experience</h1> 
+        <div class= "project-container container">
+
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Internship at Qualtrics - Full Stack Software Engineer </h1>
+                    <p>June 2023 - Sept 2023</p>
+                </div>
+                <ul>
+                    <li> Worked in Agile environment and experienced the product life-cycle through a full stack intern project beginning
+                    with a design document which was reviewed by peers </li>
+                    <li>Developed a REST API using Fastify and data stored in AWS DynamoDB, tested with Jest framework </li>
+                    <li>Developed an algorithm for recommendations utilizing provided Artificial Intelligence model that was serviced
+                    through the REST API </li>  
+                    <li> Worked with UI/UX/QE team weekly to integrate new front-end components in existing application that users
+                    would interface with to receieve their recommendations </li>   
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <h1 class = "txt-center">Projects</h1>
+
+        <div class="mg-bottom project-container container">
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Goodlift.io - Powerlifting Meet Manager</h1>
+                    <a href="https://amaro.tech/goodlift">View Project</a>
+                </div>
+                <p> Goodlift is a small-scale powerlifting competition managing web app. Supports spectating competition results and real-time lifting judge feedback.
+                    Implemented are custom context menus, state management with Redux toolkit and memoization to use a context without unnecessary re-renders. Websockets for real-time functionality. <strong> Due to Heroku deprecating their free plan, online functionality no longer works. </strong>
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> AI Flashcard Study Assistant </h1>
+                    <a href = "https://github.com/amaroguy/LIGN-167-Final-Project-AI-Flashcard-App" > View Project </a>
+                </div>
+                <p> 
+                    Final Group Project for LIGN 167: Deep Learning for Natual Language Processing. Creates Flashcards for users and allows users to describe concepts in their own words and have it be graded by OpenAI's Assistant API. 
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> SayIt AI Voice Assistant </h1>
+                    <a href = https://github.com/ucsd-cse110-sp23/cse-110-project-team-2 > View Project </a>
+                </div>
+                <p> 
+                    Final Group Project for Software Engineering Course utilizing OpenAI’s speech-to-text API and ChatGPT API
+which users can speak commands into to ask questions and send emails. Voice command history stored through account creation and REST API powered by MongoDB. Unit Tests written and required to pass to merge through Github Actions
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Discord Bot - Korone - Discord OAuth/UCSD Student Authentication System </h1>
+                     <p><a href = "https://korone.dev" > View Project </a> | <a href = "https://amaro.tech/Auth_Demo.mp4" > Demo Video! </a></p>
+                    
+                </div>
+                <p> 
+                    Implemented a system where users can link their UCSD email to an existing Discord account through OAuth in order to verify themselves as UCSD Students. Utilized
+                    Firebase Authentication for google OAuth, and implemented Discord OAuth support from scratch since at the time Firebase did not have support for Discord OAuth. Firestore was used
+                    as a database to store the link between the two accounts, and a ban table which bans certain ucsd emails from verifying themselves with the Bot in any server. 
+
+                    <strong> The code for the APIs built/bot commands are not public as to avoid any possible exploits being found. </strong>
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Discord Bot - Korone - UCSD Busyness Status </h1>
+                    <a href = "https://github.com/amaroguy/koronebot" > View Project </a>
+                </div>
+                <p> 
+                    A plugin for my discord bot that adds a command to pull the information of how busy the Gyms at UCSD are from the Waitz website, using the Waitz API and put it into a discord message. 
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Fully Responsive School Club Website - tritonbarbell.org (Unused now, hosted on different website) </h1>
+                    <a href = "https://amaro.tech/tbbsite" > View Project </a>
+                    
+                </div>
+                <p> 
+                    A website presenting my school's powerlifting and weightlifting club. Because students would be visiting this from flyers,
+                    mobile/tablet/small and large pc responsiveness was a must. Includes a responsive navbar and image carousels all in vanilla HTML/CSS/JS.
+                    Development also included frequent meetings with other leaders of the
+                    club for feedback on design and information presented.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section> 
+        <h1 class= "txt-center">Certificates</h1> 
+        <div class= "project-container container">
+
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Scrimba - Front-End Developer Career Path Completion </h1>
+                    <a href="https://scrimba.com/certificate/uqVqxNsW/gfrontend">View Certificate</a>
+                </div>
+                <p> 
+                    Completion of 80+ hours of coursework and projects in HTML/CSS/JS/React. Entire section dedicated to responsive web design and UI design. 
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id = "pd-bottom"> 
+        <h1 class= "txt-center">Papers/Cool Stuff</h1> 
+        <div class= "project-container container">
+
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> LIGN 6: Language and Computers Final Paper - Cloning My Professor's Voice </h1>
+                    <a href="https://amaro.tech/LIGN6_Final_Paper.pdf">View Paper</a>
+                </div>
+                <p> 
+                    Back in 2021 when Voice Synthesis was not as easily accessible, I collected voice clips from my professor's lectures, labeled them, and fed them into Tacotron and Talknet models to clone his voice (with permission).
+                    I compared the strengths and weaknesses of each of the models, conducted surveys to see if I could fool other students into believing the synthesized audio was real, and had made some fun audios out of it. Nowadays you just need a couple of seconds of audio and some services like Voicelabs or whatever the service is called.
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Recommender Systems Final: Binary Classification of Anime Genres from Review Text </h1>
+                    <a href="https://amaro.tech/FPEA_MAL.pdf">View Paper</a>
+                </div>
+                <p> 
+                    Given a review text of an anime, can I predict whether it is shounen or not shounen, adventure or not adventure? Using Scikitlearn's Linear Regression module and text mining techniques like TF-IDF and Bag of Words, I attempted to solve just that. I also tried out some techniques like limiting the vocabulary of a genre's model to that of only the words used in reviews of that genre which significantly improved performance, which led to talk about why some theories and talk about why some genres are harder to predict than others.
+                    
+                </p>
+            </div>
+            <div class = "project">
+                <div class = "project-title" >
+                    <h1> Automated School Busyness Tracker </h1>
+                    <a href="https://github.com/amaroguy/GeiselAndRimacBusyness">View Repo where data is stored</a>
+                </div>
+                <p> 
+                    Beginning Mid-October 2022, I set up a script on my Digital Ocean remote machine with cron that would run every 30 minutes, harvesting data from the service UCSD utilizes to keep track of the busyness of certain areas using their API and writing it to a csv.
+                    It records the busyness of each of the 8 floors of the library and the busyness of the main weight room on campus. Eventually I'll do some EDA on it!
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
